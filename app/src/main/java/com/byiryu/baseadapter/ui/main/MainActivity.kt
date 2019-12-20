@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.byiryu.baseadapter.R
 import com.byiryu.baseadapter.databinding.ActivityMainBinding
+import com.byiryu.baseadapter.ui.baase.BaseAdapter
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

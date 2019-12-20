@@ -6,9 +6,9 @@ import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 import com.byiryu.baseadapter.data.Fruit
 import com.byiryu.baseadapter.databinding.ViewMainItemBinding
+import com.byiryu.baseadapter.ui.baase.BaseViewHolder
 
-class MainHolder constructor(itemView : View): RecyclerView.ViewHolder(itemView){
-     private val  binding : ViewMainItemBinding = DataBindingUtil.bind(itemView)!!
+class MainHolder constructor(itemView : View): BaseViewHolder<ViewMainItemBinding>(itemView){
 
     fun onBind(fruit: Fruit, viewModel: MainViewModel){
         binding.viewModel = viewModel
